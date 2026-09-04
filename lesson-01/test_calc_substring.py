@@ -33,4 +33,3 @@ class TestIsSubstring(TestCase):
         self.assertFalse(is_substring("fff", "ff"))
         self.assertTrue(is_substring("fff", "ffff"))
         self.assertTrue(is_substring("F", "fff"))
-        self.assertTrue(is_substring("D", "fff"))
